@@ -1,11 +1,13 @@
 import React from "react";
+import locationLogo from "../images/location.svg";
 
 export default function Destination(props) {
   return (
-    <div className="destionation__item">
-      <img src={`/img/${props.imageUrl}`} className="destination__item--img" />
+    <div className="destinations-list__item">
+      <img src={`/img/${props.imageUrl}`} className="destinations-list__item--img" />
       <div>
-        <div>
+        <div className="destinations-list__item--texts">
+          <img src={locationLogo} alt="" className=""/>
           {props.location}
           {props.googleMapsUrl}
         </div>

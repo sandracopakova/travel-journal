@@ -22,7 +22,7 @@ export default function App() {
     <div className="wrapper">
       <div className="app">
         <Navbar />
-        <div className="destinations">{destinations}</div>
+        <div className="destinations-list">{destinations}</div>
       </div>
     </div>
   );

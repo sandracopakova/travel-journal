@@ -14,21 +14,24 @@ p {
 }
 
 .wrapper {
-  background-color: #dae9e7;
+  /*background-color: #d6d6d4;*/
+  background-image: url(../src/images/background.png);
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .app {
   width: 550px;
   background-color: white;
   border-radius: 0.5em;
-  top: 20px;
+  margin: 20px 0;
+  overflow: hidden;
 }
 
 .nav {
-  background-color: #a9c5b9;
+  background-color: #96d0d4;
   display: flex;
   justify-content: center;
   padding: 16px;
@@ -39,17 +42,24 @@ p {
   padding: 4px;
 }
 
-.destinations {
+.destinations-list {
   margin: 100px 40px 40px 40px;
 }
 
-.destionation__item {
+.destinations-list__item {
   margin-top: 40px;
   display: flex;
   gap: 20px;
 }
 
-.destination__item--img {
+.destinations-list__item--img {
   max-width: 168px;
   border-radius: 5px;
+}
+
+.destinations-list__item--texts {
+}
+
+.destinations-list__item--texts > img {
+  padding-right: 4px;
 }
