@@ -11,13 +11,13 @@ export default [
   },
   {
     id: "2",
-    title: "Sa Pedrera de Cala D'Hort",
+    title: "Atlantis Spiaggia",
     location: "Ibiza",
     googleMapsUrl: "https://bit.ly/3Jvx2Df",
     startDate: "12 Jan, 2021",
     endDate: "24 Jan, 2021",
     description:
-      "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+      "Atlantis is a fictitious name given to Sa Pedrera, a small cove in the Cala d’Hort nature reserve, opposite the huge and imposing Es Vedrà rock. It’s a diver’s paradise too, with an abundance of native marine wildlife and plants.",
     imageUrl: "ibiza.jpg",
   },
   {

@@ -53,47 +53,55 @@ a {
   margin: 100px 40px 40px 40px;
 }
 
-.destinations-list__item {
-  margin-top: 40px;
+.destinations-item {
+  margin-top: 20px;
   display: flex;
   gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e2e3e3;
 }
 
-.destinations-list__item--img {
+@media (max-width: 576px) {
+  .destinations-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.destinations-item__img {
   max-width: 168px;
+  height: 222px;
   border-radius: 5px;
 }
 
-.destinations-list__item--texts {
+.destinations-content__texts {
   font-size: 10px;
   line-height: 12px;
+  display: flex;
 }
 
-.destinations-list__item--texts > img {
+.destinations-content__texts > img {
   padding-right: 4px;
 }
 
-.destinations-list__item--texts--location {
+.destinations-content-header__location {
   text-transform: uppercase;
   letter-spacing: 0.17em;
 }
 
-.destinations-list__item--texts--location--link {
+.destinations-content-header__link {
   text-decoration: underline;
   color: #918e9b;
+  margin-left: 5px;
 }
 
-.destinations-list__item--dates {
+.destinations-content__dates {
   font-weight: bold;
   font-size: 10.24px;
   line-height: 12px;
   color: #2b283a;
 }
 
-.destinations-list__item--dates > span {
+.destinations-content__dates > span {
   margin: 5px;
-}
-
-.destinations-list__item--texts--link {
-  margin-left: auto;
 }
