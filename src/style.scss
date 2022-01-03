@@ -9,13 +9,12 @@ body {
 }
 
 p {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.5;
 }
 
 a {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 0.6rem;
   text-decoration: underline;
   color: #918e9b;
 }
@@ -33,7 +32,7 @@ a {
   width: 550px;
   background-color: white;
   border-radius: 0.5em;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   overflow: hidden;
 }
 
@@ -41,23 +40,23 @@ a {
   background-color: #96d0d4;
   display: flex;
   justify-content: center;
-  padding: 16px;
+  padding: 1rem;
   color: white;
 }
 
 .nav > * {
-  padding: 4px;
+  padding: 0.25rem;
 }
 
 .destinations-list {
-  margin: 100px 40px 40px 40px;
+  margin: 6.25rem 2.5rem 2.5rem 2.5rem;
 }
 
 .destinations-item {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   gap: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid #e2e3e3;
 }
 
@@ -75,13 +74,13 @@ a {
 }
 
 .destinations-content__texts {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 0.7rem;
+  line-height: 0.9;
   display: flex;
 }
 
 .destinations-content__texts > img {
-  padding-right: 4px;
+  padding-right: 0.25rem;
 }
 
 .destinations-content-header__location {
@@ -92,16 +91,25 @@ a {
 .destinations-content-header__link {
   text-decoration: underline;
   color: #918e9b;
-  margin-left: 5px;
+  margin-left: 0.3rem;
 }
 
 .destinations-content__dates {
   font-weight: bold;
-  font-size: 10.24px;
-  line-height: 12px;
+  font-size: 0.7rem;
+  line-height: 0.8;
   color: #2b283a;
 }
 
 .destinations-content__dates > span {
-  margin: 5px;
+  margin: 0.3rem;
+}
+
+@media (max-width: 576px) {
+  .destinations-content-header,
+  .destinations-content__heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

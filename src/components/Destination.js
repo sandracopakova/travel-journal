@@ -13,7 +13,7 @@ export default function Destination(props) {
             View on Google Maps
           </a>
         </div>
-        <h2>{props.title}</h2>
+        <h2 className="destinations-content__heading">{props.title}</h2>
         <div className="destinations-content__dates">
           {props.startDate}
           <span>-</span>
