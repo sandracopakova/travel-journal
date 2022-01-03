@@ -19,7 +19,7 @@ export default function App() {
     );
   });
   return (
-    <div className="wrapper">
+    <div className="body-shell">
       <div className="app">
         <Navbar />
         <div className="destinations-list">{destinations}</div>
