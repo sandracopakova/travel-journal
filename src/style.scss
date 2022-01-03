@@ -73,6 +73,12 @@ a {
   border-radius: 5px;
 }
 
+.destinations-item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .destinations-content__texts {
   font-size: 0.7rem;
   line-height: 0.9;
@@ -103,6 +109,10 @@ a {
 
 .destinations-content__dates > span {
   margin: 0.3rem;
+}
+
+.destinations-content__heading {
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 576px) {
