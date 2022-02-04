@@ -4,7 +4,7 @@ import locationLogo from "../images/location.svg";
 export default function Destination(props) {
   return (
     <div className="destinations-item">
-      <img src={`/img/${props.imageUrl}`} className="destinations-item__img" />
+      <img src={`/img/${props.imageUrl}`} className="destinations-item__img" alt=""/>
       <div className="destinations-item__content destinations-content">
         <div className="destinations-content__texts destinations-content-header">
           <img src={locationLogo} alt="" className="" />

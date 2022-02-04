@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: "1",
     title: "Abisko National Park",
@@ -32,3 +32,5 @@ export default [
     imageUrl: "tenerife.jpg",
   },
 ];
+
+export default data;
