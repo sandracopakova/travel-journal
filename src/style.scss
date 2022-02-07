@@ -9,12 +9,12 @@ body {
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 0.87rem;
   line-height: 1.5;
 }
 
 a {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   text-decoration: underline;
   color: #918e9b;
 }
@@ -76,11 +76,9 @@ a {
 .destinations-item__content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .destinations-content__texts {
-  font-size: 0.7rem;
   line-height: 0.9;
   display: flex;
 }
@@ -102,7 +100,7 @@ a {
 
 .destinations-content__dates {
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   line-height: 0.8;
   color: #2b283a;
 }
