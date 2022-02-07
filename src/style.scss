@@ -20,7 +20,6 @@ a {
 }
 
 .body-shell {
-  /*background-color: #d6d6d4;*/
   background-image: url(../src/images/background.png);
   display: flex;
   justify-content: center;
@@ -42,10 +41,9 @@ a {
   justify-content: center;
   padding: 1rem;
   color: white;
-}
-
-.nav > * {
-  padding: 0.25rem;
+  & > * {
+    padding: 0.25rem;
+  }
 }
 
 .destinations-list {
@@ -58,6 +56,10 @@ a {
   gap: 20px;
   padding-bottom: 1.25rem;
   border-bottom: 1px solid #e2e3e3;
+}
+
+.location-logo {
+  width: 0.87rem;
 }
 
 @media (max-width: 576px) {
