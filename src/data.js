@@ -1,6 +1,16 @@
 const data = [
   {
-    id: "1",
+    id: "4",
+    title: "Corralejo",
+    location: "Fuerteventura",
+    googleMapsUrl: "https://bit.ly/3JdFaaq",
+    startDate: "2 Januar, 2022",
+    endDate: " Januar, 2022",
+    description: "Corralejo is facing the smaller islet of Lobos. It is surrounded to the north and east by the Atlantic Ocean, by dunes to the south and by arid desert. ",
+    imageUrl: "corralejo.jpg",
+  },
+  {
+    id: "3",
     title: "Abisko National Park",
     location: "Sweden",
     googleMapsUrl: "https://bit.ly/3EJHYJD",
@@ -21,7 +31,7 @@ const data = [
     imageUrl: "ibiza.jpg",
   },
   {
-    id: "3",
+    id: "1",
     title: "Pico de Teide",
     location: "Tenerife",
     googleMapsUrl: "https://bit.ly/3EJ7sah",

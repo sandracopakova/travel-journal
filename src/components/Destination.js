@@ -10,7 +10,7 @@ export default function Destination(props) {
           <img src={locationLogo} className="destination__icon" alt="" />
           <span className="destination__location">{props.location}</span>
           <a href={props.googleMapsUrl} className="destination__link">
-            View on Google Maps
+            Google Maps
           </a>
         </div>
         <h2 className="destination__title">{props.title}</h2>
