@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  color: #2b283a;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 0.87rem;
+  line-height: 1.5;
+}
+
+a {
+  font-size: 0.75rem;
+  text-decoration: underline;
+  color: #918e9b;
+}
+
+.body-shell {
+  background-image: url(../images/background.png);
+  display: flex;
+}
+
+.app {
+  margin: 1.25rem auto;
+  border-radius: 0.5em;
+  flex-basis: 550px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.destinations-list {
+  margin: 6.25rem 2.5rem 2.5rem 2.5rem;
+}
+
+
+@import "./navbar.scss";
+@import "./destination.scss";

@@ -1,0 +1,10 @@
+.nav {
+  padding: 1rem;
+  background-color: #96d0d4;
+  display: flex;
+  justify-content: center;
+  color: white;
+  & > * {
+    padding: 0.25rem;
+  }
+}

@@ -3,20 +3,20 @@ import locationLogo from "../images/location.svg";
 
 export default function Destination(props) {
   return (
-    <div className="destinations-item">
-      <img src={`/img/${props.imageUrl}`} className="destinations-item__img" alt=""/>
-      <div className="destinations-item__content destinations-content">
-        <div className="destinations-content__texts destinations-content-header">
-          <img src={locationLogo} alt="" className="location-logo" />
-          <span className="destinations-content-header__location">{props.location}</span>
-          <a href={props.googleMapsUrl} className="destinations-content-header__link">
+    <div className="destination">
+      <img src={`/img/${props.imageUrl}`} className="destination__img" alt="" />
+      <div className="destination-item">
+        <div className="destination__texts">
+          <img src={locationLogo} className="destination__icon" alt="" />
+          <span className="destination__location">{props.location}</span>
+          <a href={props.googleMapsUrl} className="destination__link">
             View on Google Maps
           </a>
         </div>
-        <h2 className="destinations-content__heading">{props.title}</h2>
-        <div className="destinations-content__dates">
+        <h2 className="destination__title">{props.title}</h2>
+        <div className="destination__period">
           {props.startDate}
-          <span>-</span>
+          <span>&nbsp;–&nbsp;</span>
           {props.endDate}
         </div>
         <p>{props.description}</p>
