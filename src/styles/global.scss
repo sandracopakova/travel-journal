@@ -22,8 +22,8 @@ a {
 }
 
 .body-shell {
-  background-image: url(../images/background.png);
   display: flex;
+  background-image: url(../images/background.png);
 }
 
 .app {
@@ -35,7 +35,7 @@ a {
 }
 
 .destinations-list {
-  margin: 6.25rem 2.5rem 2.5rem 2.5rem;
+  padding: 6.25rem 2.5rem 2.5rem 2.5rem;
 }
 
 @import "./navbar.scss";

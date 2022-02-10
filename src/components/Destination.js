@@ -5,10 +5,10 @@ export default function Destination(props) {
   return (
     <div className="destination">
       <img src={`/img/${props.imageUrl}`} className="destination__img" alt="" />
-      <div className="destination__item">
-        <div className="destination__texts">
+      <div className="destination__texts">
+        <div className="destination__location">
           <img src={locationLogo} className="destination__icon" alt="" />
-          <span className="destination__location">{props.location}</span>
+          <span className="destination__country">{props.location}</span>
           <a href={props.googleMapsUrl} className="destination__link">
             Google Maps
           </a>
