@@ -5,7 +5,7 @@ export default function Destination(props) {
   return (
     <div className="destination">
       <img src={`/img/${props.imageUrl}`} className="destination__img" alt="" />
-      <div className="destination-item">
+      <div className="destination__item">
         <div className="destination__texts">
           <img src={locationLogo} className="destination__icon" alt="" />
           <span className="destination__location">{props.location}</span>

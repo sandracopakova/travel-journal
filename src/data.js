@@ -1,11 +1,22 @@
 const data = [
   {
+    id: "5",
+    title: "Loro Parque",
+    location: "Tenerife",
+    googleMapsUrl: "https://bit.ly/35XaYSt",
+    startDate: "9 January, 2022",
+    endDate: "28 January, 2022",
+    description:
+      "13.5-hectare zoo. The park was conceived as a paradise for parrots. There is the world's largest indoor penguin exhibition. The park is only the second place in Europe to house orcas.",
+    imageUrl: "loro.jpg",
+  },
+  {
     id: "4",
     title: "Corralejo",
     location: "Fuerteventura",
     googleMapsUrl: "https://bit.ly/3JdFaaq",
-    startDate: "2 Januar, 2022",
-    endDate: " Januar, 2022",
+    startDate: "2 January, 2022",
+    endDate: "9 January, 2022",
     description: "Corralejo is facing the smaller islet of Lobos. It is surrounded to the north and east by the Atlantic Ocean, by dunes to the south and by arid desert. ",
     imageUrl: "corralejo.jpg",
   },

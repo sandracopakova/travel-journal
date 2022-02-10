@@ -9,6 +9,10 @@
     justify-content: center;
   }
 
+  &__item {
+    width: 100%;
+  }
+
   &__img {
     border-radius: 5px;
     max-width: 168px;
