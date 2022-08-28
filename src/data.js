@@ -1,5 +1,16 @@
 const data = [
   {
+    id: "6",
+    title: "Jökulsárlón",
+    location: "Iceland",
+    googleMapsUrl: "https://bit.ly/3CCQE79",
+    startDate: "10 June, 2022",
+    endDate: "19 June, 2022",
+    description:
+      "The Glacier Lagoon flows through a short waterway into the Atlantic Ocean, leaving chunks of ice on a black sand beach. In winter, the fish-filled lagoon hosts hundreds of seals.",
+    imageUrl: "iceland.jpg",
+  },
+  {
     id: "5",
     title: "Loro Parque",
     location: "Tenerife",
